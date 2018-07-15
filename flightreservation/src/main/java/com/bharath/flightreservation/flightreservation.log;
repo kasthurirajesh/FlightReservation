@@ -1,0 +1,62 @@
+2018-07-15 20:42:21.805  INFO 462 --- [main] c.b.f.FlightreservationApplication       : Starting FlightreservationApplication on rajesh-Latitude-5580 with PID 462 (/home/rajesh/Documents/udemy/flightreservation/target/classes started by rajesh in /home/rajesh/Documents/udemy/flightreservation)
+2018-07-15 20:42:21.807  INFO 462 --- [main] c.b.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2018-07-15 20:42:21.837  INFO 462 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63021689: startup date [Sun Jul 15 20:42:21 IST 2018]; root of context hierarchy
+2018-07-15 20:42:22.776  INFO 462 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$87c9dfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-15 20:42:23.035  INFO 462 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-07-15 20:42:23.055  INFO 462 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-15 20:42:23.057  INFO 462 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-15 20:42:23.061  INFO 462 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-07-15 20:42:23.230  INFO 462 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-15 20:42:23.234  INFO 462 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2018-07-15 20:42:23.234  INFO 462 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1397 ms
+2018-07-15 20:42:23.367  INFO 462 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-07-15 20:42:23.371  INFO 462 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-15 20:42:23.371  INFO 462 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-15 20:42:23.371  INFO 462 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-15 20:42:23.372  INFO 462 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-15 20:42:23.509  INFO 462 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-07-15 20:42:23.722  INFO 462 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-07-15 20:42:23.771  INFO 462 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-15 20:42:23.783  INFO 462 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-15 20:42:23.978  INFO 462 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-07-15 20:42:23.980  INFO 462 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-07-15 20:42:24.014  INFO 462 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-15 20:42:24.104  INFO 462 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-15 20:42:24.497  INFO 462 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-15 20:42:24.728  INFO 462 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-07-15 20:42:24.922  INFO 462 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-15 20:42:25.120  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63021689: startup date [Sun Jul 15 20:42:21 IST 2018]; root of context hierarchy
+2018-07-15 20:42:25.148  WARN 462 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-07-15 20:42:25.173  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findFlights],methods=[POST]}" onto public java.lang.String com.bharath.flightreservation.contollers.FlightController.findFlights(java.lang.String,java.lang.String,java.util.Date,org.springframework.ui.ModelMap)
+2018-07-15 20:42:25.174  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/showCompleteReservation],methods=[GET]}" onto public java.lang.String com.bharath.flightreservation.contollers.ReservationController.showCompleteReservation(java.lang.Long,org.springframework.ui.ModelMap)
+2018-07-15 20:42:25.174  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/CompleteReservation],methods=[POST]}" onto public java.lang.String com.bharath.flightreservation.contollers.ReservationController.completeReservation(com.bharath.flightreservation.dto.ReservationRequest,org.springframework.ui.ModelMap)
+2018-07-15 20:42:25.175  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reservations/{id}],methods=[GET]}" onto public com.bharath.flightreservation.entities.Reservation com.bharath.flightreservation.contollers.ReservationRESTController.findReservation(java.lang.Long)
+2018-07-15 20:42:25.175  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reservations]}" onto public com.bharath.flightreservation.entities.Reservation com.bharath.flightreservation.contollers.ReservationRESTController.updateReservation(com.bharath.flightreservation.dto.ReservationUpdateRequest)
+2018-07-15 20:42:25.176  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/showReg]}" onto public java.lang.String com.bharath.flightreservation.contollers.UserController.showRegistrationPage()
+2018-07-15 20:42:25.176  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/showLogin]}" onto public java.lang.String com.bharath.flightreservation.contollers.UserController.showLogIn()
+2018-07-15 20:42:25.176  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.bharath.flightreservation.contollers.UserController.login(java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2018-07-15 20:42:25.177  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/registerUser],methods=[POST]}" onto public java.lang.String com.bharath.flightreservation.contollers.UserController.register(com.bharath.flightreservation.entities.User)
+2018-07-15 20:42:25.181  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-15 20:42:25.182  INFO 462 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-15 20:42:25.220  INFO 462 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-15 20:42:25.220  INFO 462 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-15 20:42:25.257  INFO 462 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2018-07-15 20:42:25.402  INFO 462 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-15 20:42:25.404  INFO 462 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-15 20:42:25.408  INFO 462 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-15 20:42:25.435  INFO 462 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2018-07-15 20:42:25.438  INFO 462 --- [main] c.b.f.FlightreservationApplication       : Started FlightreservationApplication in 3.901 seconds (JVM running for 4.325)
+2018-07-15 20:42:37.792  INFO 462 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-15 20:42:37.793  INFO 462 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-15 20:42:37.807  INFO 462 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-07-15 20:42:37.822  WARN 462 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2018-07-15 20:42:47.611  INFO 462 --- [http-nio-8080-exec-4] c.b.f.contollers.UserController          : CN : UserController , inside  login 
+2018-07-15 22:21:23.990  INFO 462 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-07-15 22:21:23.990  INFO 462 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63021689: startup date [Sun Jul 15 20:42:21 IST 2018]; root of context hierarchy
+2018-07-15 22:21:23.993  INFO 462 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-15 22:21:23.994  INFO 462 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-07-15 22:21:23.997  INFO 462 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-07-15 22:21:23.998  INFO 462 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-07-15 22:21:24.003  INFO 462 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
