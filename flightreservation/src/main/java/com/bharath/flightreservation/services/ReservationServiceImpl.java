@@ -35,6 +35,7 @@ public class ReservationServiceImpl implements ReservationService {
 	private EmailUtil emailUtil;
 	
 	@Override
+	@Transactional
 	public Reservation bookFlight(ReservationRequest request) {
 		
 		
